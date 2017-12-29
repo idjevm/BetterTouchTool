@@ -1,6 +1,6 @@
 {
     "gitbook": "3.x.x",
-    "plugins": ["retina", "expandable-chapters", "wide-page"],
+    "plugins": ["retina", "expandable-chapters"],
     "links": {
         "sidebar": {
             "Open BetterTouchTool Website": "https://www.boastr.net"
