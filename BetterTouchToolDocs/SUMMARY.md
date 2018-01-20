@@ -32,6 +32,7 @@
 * [Old Apple Remote](./docs/apple_remote.md)
 * [Siri Remote](./docs/siri_remote.md)
 * [The Other Tab](./docs/other.md)
+* [Clipboard Manager](./docs/clipboardmanager.md)
 * [Leap Motion](./docs/leap.md)
 * [Advanced Settings](./docs/advanced_settings.md)
 * [FAQ](./docs/faq.md)
