@@ -3,7 +3,7 @@
 ---
 
 #### Description of bug/feature request/question:
-
+**Please only post one bug/feature request per issue**
 
 
 #### Affected input device (e.g. MacBook Trackpad, Magic Mouse/Trackpad, Touch Bar, etc.):
