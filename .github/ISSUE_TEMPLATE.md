@@ -1,9 +1,9 @@
-**IMPORTANT:** Don't post private requests here (e.g. license issues, etc.). Please send me an email at boastr.net@gmail.com instead.
+**IMPORTANT:** Don't post private requests here (e.g. license issues, etc.). Please send me an email at boastr.net@gmail.com instead. 
+Please only post one bug or feature request per issue.
 
 ---
 
 #### Description of bug/feature request/question:
-Please only post one bug/feature request per issue
 
 
 #### Affected input device (e.g. MacBook Trackpad, Magic Mouse/Trackpad, Touch Bar, etc.):
