@@ -33,7 +33,12 @@
 * [Siri Remote](./docs/siri_remote.md)
 * [The Other Tab](./docs/other.md)
 * [Clipboard Manager](./docs/clipboardmanager.md)
-* [Leap Motion](./docs/leap.md)
+* [Floating WebView/ Floating HTML Menu](./docs/floating_html_menu.md)
 * [Advanced Settings](./docs/advanced_settings.md)
+* [Scripting BetterTouchTool](./docs/scripting_btt.md)
+    * [Using Apple Script](./docs/apple_script.md)
+    * [Using Custom URL Scheme](./docs/custom_url_scheme.md)
+    * [Using HTTP Requests / Webserver](./docs/webserver.md)
+
 * [FAQ](./docs/faq.md)
 
