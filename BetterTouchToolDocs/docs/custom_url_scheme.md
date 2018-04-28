@@ -5,7 +5,25 @@ This is a very recent feature which is only available in **versions greater than
 BetterTouchTool allows to be control via a custom url scheme (btt://).
 On this page I'm briefly describing the various functions you can trigger via this URL scheme.
 
+The available scripting interfaces are:
+* trigger_named
+* update_touch_bar_widget
+* trigger_action
+* execute_assigned_actions_for_trigger
+* refresh_widget
+* update_trigger
+* add_new_trigger 
+* delete_trigger
+
 **Note:** Custom URL Schemes can not return values to the calling application/browser. If you need that (e.g. after executing a shell script in BTT), please see the [integrated webserver section](webserver.md)
+
+## Security
+BetterTouchTool will ask you the first time you use a btt:// trigger whether you want to allow that. However it doesn't make sense to always continue asking that question as it would destroy the purpose of this.
+
+So to improve security you can define a shared secret which then must be included in all btt:// urls like this: btt://the_function_you_want_to_use/?shared_secret=YourSecret
+
+The shared secret can be defined in the advanced preferences
+![shared_secret](media/shared_secret.png)
 
 
 ## Available Scripting Interfaces
@@ -102,7 +120,17 @@ You need to provide a JSON object defining the new trigger. To know how the JSON
 open "btt://add_new_trigger/?json={ \"BTTTriggerClass\" : \"BTTTriggerTypeKeyboardShortcut\", \"BTTPredefinedActionType\" : 5, \"BTTPredefinedActionName\" : \"Mission Control\", \"BTTAdditionalConfiguration\" : \"1179658\", \"BTTTriggerOnDown\" : 1, \"BTTEnabled\" : 1, \"BTTShortcutKeyCode\" : 2, \"BTTShortcutModifierKeys\" : 1179648, \"BTTOrder\" : 3 }"
 ```
 
+---
 
 
+### **delete_trigger**
+This method will delete a trigger from BetterTouchTool.
+You need to provide the uuid of the trigger you want to delete (get by right-clicking it in BTT).
+
+
+#### Example Terminal Command (but you can call the URL however you like)
+```Bash
+open "btt://delete_trigger/?uuid=0E2F7963-E64C-403A-8591-C3725D4D9ADC"
+```
 
 
