@@ -1,4 +1,4 @@
-**IMPORTANT:** Don't post private requests here (e.g. license issues, etc.). Please send me an email at boastr.net@gmail.com instead. 
+**IMPORTANT:** Don't post private requests here (e.g. license issues, etc.). Please send me an email at andreas@folivora.ai instead. 
 
 
 ---
