@@ -12,6 +12,13 @@ The available scripting interfaces are:
 * refresh_widget
 * update_trigger
 * add_new_trigger 
+* delete_trigger
+
+## Security
+In general every application that is allowed to execute Apple Script could trigger these scripting functions. If you do not want this, you can define a shared secret which then must be included in all calls as "shared_secret" parameter.
+
+The shared secret can be defined in the advanced preferences
+![shared_secret](media/shared_secret.png)
 
 ## Available Scripting Interfaces
 
@@ -213,4 +220,27 @@ BetterTouchTool.add_new_trigger(JSON.stringify(newTriggerDefinition))
 
 
 
+### **delete_trigger**
+This method will delete a trigger from BetterTouchTool.
+You need to provide the uuid of the trigger you want to delete (get by right-clicking it in BTT).
+
+#### Standard Apple Script Example:
+```AppleScript
+tell application "BetterTouchTool"
+
+delete_trigger "2F34005D-4537-464D-94E9-A7F42DA39DF1"
+
+end tell
+
+
+```
+#### Java Script for Automation Example:
+```JavaScript
+var BetterTouchTool = Application('BetterTouchTool');
+
+BetterTouchTool.delete_trigger("2F34005D-4537-464D-94E9-A7F42DA39DF1");
+
+```
+
+---
 

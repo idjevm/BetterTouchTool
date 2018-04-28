@@ -8,9 +8,8 @@ BetterTouchTool has a basic integrated Webserver. It is **disabled** by default 
 
 The integrated webserver can be used for a few very interesting usecases:
 
-* **In combination with the predefined action "Show Floating WebView/HTML Menu"** (This allows you to create completely customizable popup menus). See  [Floating HTML Menu](floating_html_menu.md)
 * To easily trigger BetterTouchTool actions from websites (e.g. when building a custom "Dashboard" thingy)
-* Controlling your computer from tablet's or smartphone's via custom dashboards
+* Controlling your computer from tablet's or smartphone's via custom dashboards. This allows you to use BetterTouchTool actions from devices that don't support BTT Remote (Android, Windows Phone etc.)
 
 
 # Basic settings
