@@ -88,9 +88,8 @@ The BTT element is automatically available after opening the floating menu and y
 The most practical use in combination with the floating HTML menu is to call a named trigger (these can be configured in the "Other" tab in BTT.).  If you want to do more dynamic things, have a look here:  [Java Script Bride Overview](floating_menu_javascript.md)
 
 **Advanced Tip:**
-If your named trigger executes a Apple or Shell Script, you can even pass a function, which will receive the result / return value of the script. Here is a quick example that gets the currently playing song of Spotify:
+If your named trigger executes a Apple or Shell Script that returns a value, you get that return value by passing a callback function. This callback function will receive the result / return value of the script that is assigned to your Named Trigger. Here is a quick example that gets the currently playing song from Spotify:
 
-You can easily do this from 
 ```JavaScript
 window.BTT.callHandler('trigger_named', 
     {
@@ -112,9 +111,9 @@ When configured like this the Java Script would execute the named trigger *Spoti
 <a name="closing"></a>
 ## Closing the floating menu
 
-To close the menu perform the same trigger you used to open the menu again.
+In general you can always perform the same trigger you used to open the menu in order to close the menu. Additionally if you set the "close when clicking outside" option, you can just click outside of the Floating Web View to close it.
 
-If you want to close the menu in response to any of your menu items, include 
+However if you want to close the menu in response to any of your menu items, include 
  ``` closeFloatingHTMLMenu: 1``` in your call. For example with Javas Script:
  ```HTML
   <div onClick="window.BTT.callHandler('trigger_named', {trigger_name: 'Action5', closeFloatingHTMLMenu: 1} )" >
@@ -131,17 +130,17 @@ or using custom btt:// urls:
  <a name="jsonopen"></a>
  ## Executing Java Script when the Menu opens
 
- BetterTouchTool automatically calls the ```BTTInitialize()``` method, you can implement it with your custom code.
+ BetterTouchTool automatically calls the ```BTTInitialize()``` method when showing the Floating Web View. You can put your custom code in that function.
 
   <a name="jsonclose"></a>
   ## Executing Java Script when the Menu closes
 
- BetterTouchTool automatically calls the ```BTTWillCloseWindow()``` method when the overlay is about to close, you can implement it with your custom code.
+ BetterTouchTool automatically calls the ```BTTWillCloseWindow()``` method when the overlay is about to close, you can put your own code in that function.
 
  <a name="template"></a>
  ## Starter Template
 
-Here is a good starter template you can use to create your own menu:
+Here is a little starter template you can use to create your own menu. There are tons of great CSS and HTML examples out there that you can use as a base to design your Floating Menu. BetterTouchTool should support all HTML, Java Script & CSS features that are available in Safari.
 ```HTML
 <html>
 <head>

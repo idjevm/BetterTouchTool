@@ -13,6 +13,7 @@ The available scripting interfaces are:
 * update_trigger
 * add_new_trigger 
 * delete_trigger
+* get_clipboard_content
 
 
 ## Available Scripting Interfaces
@@ -31,6 +32,16 @@ This method will trigger the specified named trigger (which can be configured in
 #### Example:
 ```JavaScript
  window.BTT.callHandler('trigger_named', {trigger_name: 'Action5'})
+```
+
+#### Advanced Example with Result Callback:
+```JavaScript
+ window.BTT.callHandler('trigger_named', {trigger_name: 'Action5'},
+    function callback(scriptResult) {   
+      // this callback function will be called with the results of the triggered action (if any).
+      // Currently only the Apple Script and Shell Script actions return results.
+    }
+)
 ```
 ---
 
@@ -87,6 +98,15 @@ You can get the uuid by right-clicking any configured trigger in BetterTouchTool
 window.BTT.callHandler('execute_assigned_actions_for_trigger', {uuid: '2F34005D-4537-464D-94E9-A7F42DA39DF1'})
 ```
 
+#### Advanced Example with Result Callback:
+```JavaScript
+ window.BTT.callHandler('execute_assigned_actions_for_trigger', {uuid: '2F34005D-4537-464D-94E9-A7F42DA39DF1'},
+    function callback(scriptResult) {   
+      // this callback function will be called with the results of the triggered action (if any).
+      // Currently only the Apple Script and Shell Script actions return results.
+    }
+)
+```
 ---
 
 
@@ -153,11 +173,26 @@ You need to provide the uuid of the trigger you want to delete (get by right-cli
 
 #### Example
 ```JavaScript
-var BetterTouchTool = Application('BetterTouchTool');
-
 window.BTT.callHandler('delete_trigger', {uuid: '2F34005D-4537-464D-94E9-A7F42DA39DF1'})
 
 ```
 
 ---
+
+### **get_clipboard_content**
+Gives you the current text content of the clipboard.
+
+#### Example
+```JavaScript
+window.BTT.callHandler('get_clipboard_content',{},
+    function callback(clipboardContent) {   
+      // this callback function gets the clipboard content as parameter
+    }
+);
+
+```
+
+---
+
+
 
