@@ -4,7 +4,7 @@ about: Suggest an idea for BetterTouchTool
 
 ---
 
-**Description of bug/feature request/question:**
+**Description of feature request:**
 Please only post one feature request per issue and use a descriptive title.
 
 **Affected input device (e.g. MacBook Trackpad, Magic Mouse/Trackpad, Touch Bar, etc.):**
