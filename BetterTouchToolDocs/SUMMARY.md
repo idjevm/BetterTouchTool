@@ -7,7 +7,10 @@
     * [Setting up a new Gesture](./docs/preferences_new_gesture.md)
     * [Presets](./docs/preferences_presets.md)
     * [Advanced](./docs/preferences_advanced.md)
+    * [Restoring Automatic Backups](./docs/restoring_automatic_backups.md)
+
 * [Predefined Actions](./docs/predefined_actions.md)
+    * [Clipboard Manager](./docs/clipboardmanager.md)
 * [Window Snapping](./docs/window_snapping_chapter.md)
     * [Basic Window Snapping Setup](./docs/window_snapping.md)
     * [Advanced Customization Options](./docs/window_snapping_advanced.md)
@@ -15,11 +18,14 @@
     * [Custom Snap Areas](./docs/snap_areas.md)
 * [Keyboard](./docs/keyboard_chapter.md)
     * [Adding Keyboard Shortcuts](./docs/normal_keyboard_shortcuts.md)
+    * [Advnced Keyboard Shortcut Settings](advanced_shortcut_settings.md)
+
     * [Adding custom Key Sequence triggers](./docs/key_sequences.md)
     * [Sending shortcuts to specific apps](./docs/sending_shortcuts_to_specific.md)
 * [Touch Bar](./docs/touch_bar.md)
     * [Touch Bar Basics](./docs/touch_bar_basics.md)
     * [Touch Bar Widgets](./docs/touch_bar_widgets.md)
+    * [Touch Bar Gestures](./docs/touchbar_gestures.md)
     * [Touch Bar Advanced Configuration](./docs/touch_bar_advanced.md)
 
 * [BTT Remote](./docs/bttremote.md)

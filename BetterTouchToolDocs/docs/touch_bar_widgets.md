@@ -50,3 +50,32 @@ Allows you to insert emoticons from your Touch Bar in any app.
 Switch between the different groups of emoji using the arrow buttons.
 The first group that is shown displays the most recently used emoji.
 ![tb_widgets](media/tb22.png)
+
+## Custom Apple Script Slider Widget
+The custom Apple Script slider allows you to trigger custom things everytime the slider is dragged. 
+
+You can set a script which returns the initial value of the slider like this:
+![tb_widgets](media/apple_script_slider.png)
+
+Then you can assign the predefined action "Run Apple Script in Background". In that you need to define a function called ```bttWidgetSliderMoved```
+
+For example like this (this will set the current position in VLC using the slider value)
+
+```AppleScript
+on bttWidgetSliderMoved(newSliderValue)
+	tell application "VLC"
+		set current time to (duration of current item * newSliderValue)
+	end tell
+end bttWidgetSliderMoved
+```
+
+Or like this (sets the system volume):
+```AppleScript
+on bttWidgetSliderMoved(sliderValue)
+    set volume output volume sliderValue * 100
+end bttWidgetSliderMoved
+```
+
+
+
+![tb_widgets](media/apple_script_slider2.png)
