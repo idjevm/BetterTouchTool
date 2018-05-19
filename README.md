@@ -1,8 +1,9 @@
 # NOTE: BetterTouchTool is no longer using GitHub for Issue Tracking.
 All bugs, feature requests or questions should be posted on the new community platform https://community.folivora.ai from now on. Existing issues will be moved in the coming days and weeks. For more information see https://folivora.ai/blog
 
-
+<a href="https://community.folivora.ai">
 <img src="community_moved.png"/>
+  </a>
 
 ## BetterTouchTool Documentation
 
