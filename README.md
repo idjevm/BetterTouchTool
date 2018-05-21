@@ -1,12 +1,10 @@
-# BetterTouchTool
+# NOTE: BetterTouchTool is no longer using GitHub for Issue Tracking.
+<a href="https://community.folivora.ai">
+<img src="community_moved.png"/>
+  </a>
+  
 
-This contains the BetterTouchTool documentation and issue tracking for [BetterTouchTool](https://boastr.net).
-
-* Please post any bugs, feature requests, ideas or even questions (with the appropriate tags) in the [issues section](https://github.com/fifafu/BetterTouchTool/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
-* Some issues are marked as FAQ/Knowledge base, which may be interesting for everybody. View them [here](https://github.com/fifafu/BetterTouchTool/issues?q=is%3Aissue+label%3A%22%E2%9C%B3%EF%B8%8F+Knowledge+Base+%2F+FAQ%22).
-* The current BetterTouchTool release notes can always be found [here](https://updates.bettertouchtool.net/bettertouchtool_release_notes.html).
-
-For non-public issues, please contact me via boastr.net@gmail.com.
+All bugs, feature requests or questions should be posted on the new community platform https://community.folivora.ai from now on. Existing issues will be moved in the coming days and weeks. For more information see https://folivora.ai/blog
 
 ## BetterTouchTool Documentation
 
