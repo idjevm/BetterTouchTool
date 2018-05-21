@@ -18,8 +18,7 @@
     * [Custom Snap Areas](./docs/snap_areas.md)
 * [Keyboard](./docs/keyboard_chapter.md)
     * [Adding Keyboard Shortcuts](./docs/normal_keyboard_shortcuts.md)
-    * [Advnced Keyboard Shortcut Settings](advanced_shortcut_settings.md)
-
+    * [Advanced Keyboard Shortcut Settings](advanced_shortcut_settings.md)
     * [Adding custom Key Sequence triggers](./docs/key_sequences.md)
     * [Sending shortcuts to specific apps](./docs/sending_shortcuts_to_specific.md)
 * [Touch Bar](./docs/touch_bar.md)
@@ -29,8 +28,7 @@
     * [Touch Bar Advanced Configuration](./docs/touch_bar_advanced.md)
 
 * [BTT Remote](./docs/bttremote.md)
-* [Magic Mouse](./docs/magic_mouse.md)
-* [Trackpad](./docs/trackpad.md)
+* [Magic Mouse & Trackpad Gestures](./docs/magic_mouse_trackpad.md)
 * [Drawings](./docs/drawings.md)
 * [Normal Mice](./docs/normal_mice.md)
     * [Assigning Actions to Buttons](./docs/normal_mice_assigning_actions.md)
@@ -40,6 +38,7 @@
 * [The Other Tab](./docs/other.md)
 * [Clipboard Manager](./docs/clipboardmanager.md)
 * [Floating WebView/ Floating HTML Menu](./docs/floating_html_menu.md)
+    * [Floating WebView Java Script Triggers](./docs/floating_menu_javascript.md)
 * [Advanced Settings](./docs/advanced_settings.md)
 * [Scripting BetterTouchTool](./docs/scripting_btt.md)
     * [Using Apple Script](./docs/apple_script.md)

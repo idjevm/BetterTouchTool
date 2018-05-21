@@ -1,5 +1,3 @@
-#Other
+# Other
 
-documentation not yet available
-
-
+The Other tab contains various triggers that do not fit in the other categories.

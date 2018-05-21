@@ -11,18 +11,19 @@ Here is a quick example of how that could look like (if you want to try this you
         and watch it with your favorite video player!
     </video>
 
-*  [Setup](#setup)
-*  [Available Settings](#settings)
-*  [Triggering BetterTouchTool Actions](#triggering)
-*  [Execute Java Script when opening](#jsonopen)
-*  [Execute Java Script when closing](#jsonclose)
-*  [Starter Template](#template)
-*  [Tips](#tips)
-*  [Example Menu](#example)
+
+*  [Setup](#Setup)
+*  [Available Settings](#available-settings)
+*  [Triggering BetterTouchTool Actions](#triggering-bettertouchtool-actions)
+*  [Closing the Menu](#closing-the-floating-menu)
+*  [Execute Java Script when opening](#executing-java-script-when-the-menu-opens)
+*  [Execute Java Script when closing](#executing-java-script-when-the-menu-closes)
+*  [Starter Template](#starter-template)
+*  [Tips](#tips-for-creating-a-menu)
+*  [Example Menu](#example-menu)
 
 
 ***
-<a name="setup"></a>
 ## Setup
 
 The setup is pretty simple. You assign the predefined action "Show Floating WebView/HTML Menu" to some trigger in BTT.
@@ -30,7 +31,6 @@ You enter the path or URL to the html file you want to show.
 
 ![floatingmenu](media/floating_menu_setup.png)
 
-<a name="settings"></a>
 ## Available Settings
 
 * Width & Height define how big the overlay will be.
@@ -40,7 +40,6 @@ You enter the path or URL to the html file you want to show.
 * In the advanced tab you can select a custom user agent and define whether specific types of links should be opened in the system web browser.
 
 ***
-<a name="triggering"></a>
 ## Triggering BetterTouchTool actions
 
 There are multiple ways to trigger BetterTouchTool actions from the Floating Web View. 
@@ -108,7 +107,6 @@ When configured like this the Java Script would execute the named trigger *Spoti
 ![floatingmenu](media/named_trigger_script.png)
 
 
-<a name="closing"></a>
 ## Closing the floating menu
 
 In general you can always perform the same trigger you used to open the menu in order to close the menu. Additionally if you set the "close when clicking outside" option, you can just click outside of the Floating Web View to close it.
@@ -127,18 +125,18 @@ or using custom btt:// urls:
 <a href="btt://trigger_named/?trigger_name=Action1&closeFloatingHTMLMenu=1">Trigger Action1 via Link</a>  
 
 ```
- <a name="jsonopen"></a>
+
  ## Executing Java Script when the Menu opens
 
  BetterTouchTool automatically calls the ```BTTInitialize()``` method when showing the Floating Web View. You can put your custom code in that function.
 
-  <a name="jsonclose"></a>
-  ## Executing Java Script when the Menu closes
+
+## Executing Java Script when the Menu closes
 
  BetterTouchTool automatically calls the ```BTTWillCloseWindow()``` method when the overlay is about to close, you can put your own code in that function.
 
- <a name="template"></a>
- ## Starter Template
+
+## Starter Template
 
 Here is a little starter template you can use to create your own menu. There are tons of great CSS and HTML examples out there that you can use as a base to design your Floating Menu. BetterTouchTool should support all HTML, Java Script & CSS features that are available in Safari.
 ```HTML
@@ -178,7 +176,6 @@ Here is a little starter template you can use to create your own menu. There are
 
 ```
 
-<a name="tips"></a>
 ## Tips for creating a menu
 
 * Often CSS Grid is a good solution, as it makes it easy to position elements in a grid. However there are also tons of great HTML+CSS menus out there that you can use as a starting point.
@@ -189,7 +186,6 @@ Here is a little starter template you can use to create your own menu. There are
 
 ![webinspector](media/web-inspector.png)
 
-<a name="example"></a>
 ## Example Menu
 
 A nice example can be found in this tutorial: 
