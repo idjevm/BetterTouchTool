@@ -15,7 +15,7 @@ lockLabel: false
 
 # Comment to post before locking. Set to `false` to disable
 lockComment: >
-  This thread has been automatically locked. The BetterTouchTool issue tracker has moved to https://community.folivora.ai. In case you still experience the issue please create a new post there.
+  This issue has been locked automatically. The BetterTouchTool issue tracker has moved to https://community.folivora.ai. In case you still experience the issue please create a new post there.
 
 # Assign `resolved` as the reason for locking. Set to `false` to disable
 setLockReason: true
