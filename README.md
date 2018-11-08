@@ -4,7 +4,7 @@
   </a>
   
 
-All bugs, feature requests or questions should be posted on the new community platform https://community.folivora.ai from now on. Existing issues will be moved in the coming days and weeks. For more information see https://folivora.ai/blog
+All bugs, feature requests or questions should be posted on the new community platform https://community.folivora.ai from now on.
 
 ## BetterTouchTool Documentation
 
