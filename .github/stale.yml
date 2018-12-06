@@ -1,0 +1,17 @@
+# Number of days of inactivity before an issue becomes stale
+daysUntilStale: 1
+# Number of days of inactivity before a stale issue is closed
+daysUntilClose: 1
+# Issues with these labels will never be considered stale
+exemptLabels:
+  - pinned
+  - security
+# Label to use when marking an issue as stale
+staleLabel: issue_tracker_closed
+# Comment to post when marking an issue as stale. Set to `false` to disable
+markComment: false
+# Comment to post when closing a stale issue. Set to `false` to disable
+closeComment >
+  This issue has been closed because the BetterTouchTool issue tracker has moved
+  to https://community.folivora.ai earlier this year. In case you still need help
+  please post again there.
